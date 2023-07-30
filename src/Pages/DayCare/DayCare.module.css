@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainbg{
+    background: url("./mainbg.png") no-repeat ;
+    background-size: contain;
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00bd35;
+}
+
+.mainbg > h2{
+    font-size: 4rem;
+    width: 50%;
+    text-align: center;
+    transform: translateY(-50px);
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3%;
+}
+
+.servicediv{
+    background-color: #00bd35;
+    color: white;
+    margin: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 2%;
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px 5px black;
+    border-radius: 20px;
+}
+
+.servicediv > img{
+    width: 25%;
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.servicediv:hover{
+    background-color: white;
+    color: #00bd35;
+}
+
+.servicediv > p{
+    text-align: justify;
+}
+
+.servicesheading {
+    text-align: center;
+    color: #00bd35;
+}
+
+.header{
+    color: #00bd35;
+}
+
+.revimg{
+    margin-top: 10%;
+}
+
+.card{
+    background: linear-gradient(#12DAFB,#A7FDCC) !important;
+}
+
+.name{
+    color: white;
+}
+
+.packagediv{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+    background-color: rgb(211, 210, 210);
+}
+
+.indivpackage{
+    background-color: white;
+    margin: 2%;
+    box-shadow: 10px 10px 5px grey;
+    transition: 0.2s ease-in-out;
+    transform: scale(0.9);
+    margin-top: 0%;
+}
+
+.indivpackage:nth-child(2):hover{
+    transform: scale(1.05);
+}
+
+.indivpackage:nth-child(2){
+    transform: scale(1);
+}
+
+.pricingimg{
+    width: 100%;
+}
+
+.packagedetails{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.indivpackage:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+
+
+.packagedetails > h3{
+    color: #00bd35;
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+.packagedetails > p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.packagedetails > div {
+    width: 75%;text-align: center;
+}
+
+.packagedetails > div > p:nth-child(odd){
+    background-color: grey;
+    padding: 3%;
+    color: white;
+}
+
+.packagedetails > button{
+    background-color: #00bd35;
+    color: white;
+    padding: 2% 5%;
+    font-weight: bold;
+    border: 2px solid #00bd35;
+    transition: 0.2s ease-in;
+    margin-bottom: 5%;
+}
+
+.packagedetails > button:hover{
+    background-color: transparent;
+    color: #00bd35;
+}
+
+.packagedivheader{
+    background-color: rgb(214, 214, 214);
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding-top: 2% ;
+}
+
+.gallery{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    padding: 5%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    
+}
+.gallery::-webkit-scrollbar {
+    display: none;
+}
+  
+.galleryitem{
+    min-width: 30%;
+    scroll-snap-align: center;
+}
+
+.galleryimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.galleryheader{
+    text-align: center;
+    color: #00bd35;
+    padding-top: 3%;
+    padding-bottom: 0%;
+}
+
+section{
+    background-color: rgb(233, 233, 233);
+}
+
+.parallex{
+    background: url("./parallex.jpg") center / cover fixed ;
+    width: 100%;
+    height: 80vh;
+}
+
+@media screen and (max-width : 450px) {
+    .mainbg{
+        min-height: 37vh;
+        background-repeat: repeat;
+    }
+    
+    .mainbg > h2{
+        font-size: 2rem;
+        transform: translateY(0px);
+    }
+    
+    .services{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicesheading{
+        margin-top: 5%;
+    }
+
+    .servicediv{
+        margin: 5% 15%;
+        width: 75%;
+        padding: 5%;
+    }
+
+    .galleryheader{
+        font-size: 2rem;
+    }
+
+.galleryitem{
+    min-width: 90%;
+}
+
+
+
+.packagediv{
+    flex-direction: column;
+}
+
+.indivpackage:hover{
+    transform: scale(0.9);
+}
+
+.indivpackage:nth-child(2):hover{
+    transform: scale(1);
+}
+
+
+
+}

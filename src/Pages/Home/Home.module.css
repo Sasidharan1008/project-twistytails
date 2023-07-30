@@ -1,0 +1,336 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    background: url('main-bg.png') center / cover fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.bannertxt{
+    padding: 20px;
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.bannertxt > h1{
+    font-size: 5rem;
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+.bannertxt > p{
+    color: #fff ;
+    font-size: 2rem;
+}
+
+.bannertxt > button{
+    background-color: #00bd56;
+    padding: 1% 2%;
+    font-size: 1.25rem;
+    color: #fff;
+    border: 2px solid #00bd56;
+    border-radius: 10px;
+    margin: 0px 35%;
+}
+
+.bannertxt > button:hover{
+background-color: transparent;
+color: #00bd56;
+}
+
+.slider{
+    box-shadow: 0px 0px 10px black;
+    width: 50%;
+}
+
+.carouselContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.silderimg{
+    height: 60vh;
+}
+
+.AdoptHead{
+    text-align: center;
+    color: #00bd56;
+    margin-top: 100px;
+}
+
+.process{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.processdiv{
+    padding: 20px;
+    background-color: #171717;
+    color: gray;
+    margin: 10px;
+    border-radius: 10%;
+    width: 300px;
+    height: 370px;
+    transition: 0.5s ease-in;
+    box-shadow: 0px 0px 5px #00bd56;
+}
+
+.processdiv > p{
+    text-align: justify;
+}
+
+.processdiv > h3{
+    color: #fff;
+}
+
+.processdiv:hover{
+    background-color: grey;
+    color: #171717;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+.parallex1{
+    background: url("./pxl1.jpg") center / cover fixed;
+    width: 100%;
+    height: 80vh;
+}
+
+.parallex2{
+    background: url("./pxl2.jpeg") center / cover fixed;
+    width: 100%;
+    height: 80vh;
+}
+
+.AdoptionForm{
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 15%;
+    background-color: #00bd56;
+    padding: 2% 5% ;
+    box-shadow: 0px 0px 10px #171717;
+}
+
+.AdoptionForm > h2{
+    color: #fff;
+}
+
+.AdoptionForm >button{
+    padding: 1% 2%;
+    background-color: #171717;
+    color: aliceblue;
+    border: 2px solid #171717;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #171717;
+}
+
+.AdoptionForm >button:hover{
+    background-color: transparent;
+    color: #171717;
+}
+
+.petgallery{
+    margin: 10%;
+}
+
+.petgallery >h1{
+    text-align: center;
+    color: #00bd56;
+    margin: 2%;
+}
+
+.galimg{
+    box-shadow: 10px 10px 10px black;
+}
+
+.valuediv{
+    display: flex;
+    justify-content: space-around;
+    background-color: #00bd56;
+    color: #fff;
+    padding: 3% 5%;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 100px ;
+}
+
+.valdiv > p{
+    font-size: 1.25rem;
+}
+
+.Volunteer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 50vh;
+    margin: 5%;
+}
+
+.Volunteer > img{
+    max-height : 50vh;
+}
+
+.vl > h1{
+ color: #00bd56;
+}
+
+.vl > p{
+    color: #207dff;
+    font-size: 1.25rem;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form > input{
+    padding: 2% 4%;
+    border: 2px solid #00bd56;
+    margin: 5px ;
+    color: #00bd56;
+    border-radius: 5px;
+}
+
+.form > input, .form > input:focus {
+    outline: none;
+}
+
+.form > input::placeholder{
+    color: #00bd56;
+}
+
+.form > button{
+    background-color: #00bd56;
+    color: #fff;
+    margin: 3px ;
+    padding: 1% 4%;
+    border: 2px solid #00bd56;
+}
+
+.form > button:hover{
+    color: #00bd56;
+    background-color: transparent;
+}
+
+.VideoDiv{
+    background-color: #00bd56;
+}
+
+.VideoDiv > h1{
+    text-align: center;
+    color: #fff;
+    padding: 3%;
+}
+
+.Video{
+    display: flex;
+    justify-content: center;
+}
+
+.Video > iframe{
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width : 450px) {
+    .Video{
+        width: 100%;
+    }
+
+    .Volunteer > img{
+        max-height : 20vh;
+    }
+
+    .banner{
+        background-size:contain ;
+        height: 55vh;
+    }
+
+    .bannertxt > h1{
+        font-size: 2rem;
+    }
+    
+    .bannertxt > p{
+        color: #fff ;
+        font-size: 1rem;
+    }
+    
+    .bannertxt > button{
+        padding: 2% 5%;
+        font-size: 1rem;
+        color: #fff;
+        margin: 0px 5%;
+    }
+
+        
+    .slider{
+        width: 80%;
+    }
+
+    .carouselContainer {
+        padding-top: 15%;
+    }
+    .silderimg{
+        height: 40vh;
+    }
+    .parallex1 , .parallex2{
+        background-size: contain;
+        height: 30vh;
+    }
+
+    .AdoptionForm > h2{
+        font-size: 1rem;
+        margin-right: 2%;
+    }
+
+    .AdoptionForm >button{
+        font-size: 0.8rem;
+        padding: 2% 3%;
+        width: 70%;
+    }
+
+    .valuediv{
+        margin-bottom: 20px ;
+        column-gap: 5%;
+    }
+
+    .valdiv > h1{
+        font-size: 1rem;
+    }
+
+    .valdiv > p{
+        font-size: 1rem;
+    }
+
+    .VideoDiv{
+        padding: 5% 15%;
+    }
+
+    .vl{
+        margin-left: 5%;
+    }
+
+    .vl > h1{
+        font-size: 1rem;
+    }
+    
+    .vl > p{
+        font-size: 1rem;
+    }
+
+    .form{
+        width: 50%;
+    }
+}
