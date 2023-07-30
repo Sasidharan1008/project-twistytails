@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/project-twistytails/static/css/main.f56b414f.css",
+    "main.js": "/project-twistytails/static/js/main.01ca7865.js",
+    "static/media/h3.jpg": "/project-twistytails/static/media/h3.268f5783c0bb94af6d95.jpg",
+    "static/media/main-bg.png": "/project-twistytails/static/media/main-bg.8469d33069ec1f48086b.png",
+    "static/media/s4.jpg": "/project-twistytails/static/media/s4.6b2df88f0566090876e2.jpg",
+    "static/media/h2.jpg": "/project-twistytails/static/media/h2.fcb59080c45786158b68.jpg",
+    "static/media/S1.jpg": "/project-twistytails/static/media/S1.df8762a1ed4827bb0f61.jpg",
+    "static/media/s3.jpg": "/project-twistytails/static/media/s3.3e833900749d5746b49f.jpg",
+    "static/media/s5.jpg": "/project-twistytails/static/media/s5.41181d4d7d080948dcbe.jpg",
+    "static/media/s2.jpg": "/project-twistytails/static/media/s2.f2191dfd6e655198673d.jpg",
+    "static/media/s1.jpg": "/project-twistytails/static/media/s1.ebcc5c4baf799c6a9f5e.jpg",
+    "static/media/l3.jpg": "/project-twistytails/static/media/l3.273692d2d4f83374fe58.jpg",
+    "static/media/l1.jpg": "/project-twistytails/static/media/l1.55f1bfc9269ceff1763b.jpg",
+    "static/media/h1.jpg": "/project-twistytails/static/media/h1.fc95727c9b9e9695fcd0.jpg",
+    "static/media/mainbg.png": "/project-twistytails/static/media/mainbg.3eb1744b458231f923af.png",
+    "static/media/p1.jpg": "/project-twistytails/static/media/p1.a1bebcfc54aae38d1494.jpg",
+    "static/media/pxl1.jpg": "/project-twistytails/static/media/pxl1.67de8e5c5723a47fa2ad.jpg",
+    "static/media/parallex.jpg": "/project-twistytails/static/media/parallex.53caae5d028026aa14e4.jpg",
+    "static/media/l2.jpg": "/project-twistytails/static/media/l2.e54be5afbe82c2644f07.jpg",
+    "static/media/pxl2.jpeg": "/project-twistytails/static/media/pxl2.c457a725cf4b5616170e.jpeg",
+    "static/media/s2.webp": "/project-twistytails/static/media/s2.d43b24a3c5750916f84a.webp",
+    "static/media/s6.jpg": "/project-twistytails/static/media/s6.579a2d292b8edff70f35.jpg",
+    "static/media/pricing1.jpg": "/project-twistytails/static/media/pricing1.797ae75d033305a05ada.jpg",
+    "static/media/pricing2.jpg": "/project-twistytails/static/media/pricing2.35e079f9dafbed26cfce.jpg",
+    "static/media/pricing3.jpg": "/project-twistytails/static/media/pricing3.389f1ab11d0057a11fda.jpg",
+    "static/media/grooming.png": "/project-twistytails/static/media/grooming.e4d0fdb6c000188ea58b.png",
+    "index.html": "/project-twistytails/index.html",
+    "main.f56b414f.css.map": "/project-twistytails/static/css/main.f56b414f.css.map",
+    "main.01ca7865.js.map": "/project-twistytails/static/js/main.01ca7865.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f56b414f.css",
+    "static/js/main.01ca7865.js"
+  ]
+}
