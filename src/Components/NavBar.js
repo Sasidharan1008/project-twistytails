@@ -39,7 +39,7 @@ function NavBar() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className={Styles.collapse} id="basic-navbar-nav">
                 <Nav className={Styles.nav_list}>
-                    <Nav.Link to="/" ><Link className={Styles.nav_link} to="/">Home</Link></Nav.Link>
+                    <Nav.Link to="/project-twistytails/" ><Link className={Styles.nav_link} to="/">Home</Link></Nav.Link>
                     <Nav.Link href='#form' className={Styles.nav_link} >ADOPTION FORM</Nav.Link>
                     <Nav.Link  ><Link className={Styles.nav_link} to="/daycare">Day Care</Link></Nav.Link>
                     <Nav.Link href="#gallery" className={Styles.nav_link} >GALLERY</Nav.Link>
