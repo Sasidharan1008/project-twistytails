@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/project-twistytails/static/css/main.f56b414f.css",
-    "main.js": "/project-twistytails/static/js/main.01ca7865.js",
+    "main.js": "/project-twistytails/static/js/main.30c8b501.js",
     "static/media/h3.jpg": "/project-twistytails/static/media/h3.268f5783c0bb94af6d95.jpg",
     "static/media/main-bg.png": "/project-twistytails/static/media/main-bg.8469d33069ec1f48086b.png",
     "static/media/s4.jpg": "/project-twistytails/static/media/s4.6b2df88f0566090876e2.jpg",
@@ -28,10 +28,10 @@
     "static/media/grooming.png": "/project-twistytails/static/media/grooming.e4d0fdb6c000188ea58b.png",
     "index.html": "/project-twistytails/index.html",
     "main.f56b414f.css.map": "/project-twistytails/static/css/main.f56b414f.css.map",
-    "main.01ca7865.js.map": "/project-twistytails/static/js/main.01ca7865.js.map"
+    "main.30c8b501.js.map": "/project-twistytails/static/js/main.30c8b501.js.map"
   },
   "entrypoints": [
     "static/css/main.f56b414f.css",
-    "static/js/main.01ca7865.js"
+    "static/js/main.30c8b501.js"
   ]
 }
